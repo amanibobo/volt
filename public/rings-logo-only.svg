@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 3D Interlocking Rings Symbol -->
+  <g transform="translate(100, 100) scale(2.5)">
+    <!-- Back Ring -->
+    <ellipse cx="0" cy="0" rx="20" ry="12"
+             fill="none" 
+             stroke="#0EA5E9" 
+             stroke-width="3"
+             transform="rotate(-32)" 
+             opacity="0.7"/>
+             
+    <!-- Middle Ring -->
+    <ellipse cx="0" cy="0" rx="20" ry="12"
+             fill="none" 
+             stroke="#0EA5E9" 
+             stroke-width="3"
+             transform="rotate(32)" 
+             opacity="0.85"/>
+             
+    <!-- Front Ring -->
+    <ellipse cx="0" cy="0" rx="20" ry="12"
+             fill="none" 
+             stroke="#0EA5E9" 
+             stroke-width="3"
+             opacity="1"/>
+  </g>
+</svg>
