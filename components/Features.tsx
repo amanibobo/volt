@@ -1,7 +1,7 @@
 export default function Features() {
     return (
         <>
-        <h1>features</h1>
+        <div className="bg-[#FAFAFA]">features</div>
         </>
     )
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Plus_Jakarta_Sans } from 'next/font/google';
 
 
 const geistSans = localFont({
@@ -15,9 +14,10 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
+const plusJakarta = localFont({
+  src: "./fonts/plus-jakarta-sans-cyrillic-ext-200-normal.woff",
   variable: "--font-plus-jakarta",
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {

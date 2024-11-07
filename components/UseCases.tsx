@@ -1,7 +1,9 @@
+import TimerProgess from "./ui/timer-progess";
+
 export default function UseCases() {
     return (
-        <>
-        <h1>use cases</h1>
-        </>
+        <div className="py-28">
+            <TimerProgess />
+        </div>
     )
 }
