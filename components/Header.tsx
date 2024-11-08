@@ -21,7 +21,7 @@ export default function Header() {
                   of AI-driven data centers.
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Optimize your data center locations with advanced AI analytics
+                  Optimize your data center locations with Voltients advanced AI analytics
                   for a sustainable, high-performance future.
                 </p>
               </div>
