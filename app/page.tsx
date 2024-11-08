@@ -5,16 +5,18 @@ import Header from "@/components/Header";
 import HowItWorks from "@/components/HowItWorks";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import UseCases from "@/components/UseCases";
+import Navbar from "@/components/marketing/navbar";
 
 export default function Home() {
   return (
     <>
+    <Navbar />
     <Header />
     <MaxWidthWrapper>
     <UseCases />
     </MaxWidthWrapper>
 
-    <div className="py-28 md:px-16 px-2.5">
+    <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
     <Features />
     </div>
 
@@ -22,7 +24,7 @@ export default function Home() {
     <HowItWorks />
     </MaxWidthWrapper>
 
-    <div className="bg-[#FAFAFA] py-28 md:px-16 px-2.5">
+    <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
     <FinalCta />
     </div>
 

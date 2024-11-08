@@ -5,7 +5,7 @@
     <ellipse cx="0" cy="0" rx="20" ry="12"
              fill="none" 
              stroke="#0EA5E9" 
-             stroke-width="3"
+             strokeWidth="3"
              transform="rotate(-32)" 
              opacity="0.7"/>
              
@@ -13,7 +13,7 @@
     <ellipse cx="0" cy="0" rx="20" ry="12"
              fill="none" 
              stroke="#0EA5E9" 
-             stroke-width="3"
+             strokeWidth="3"
              transform="rotate(32)" 
              opacity="0.85"/>
              
@@ -21,7 +21,7 @@
     <ellipse cx="0" cy="0" rx="20" ry="12"
              fill="none" 
              stroke="#0EA5E9" 
-             stroke-width="3"
+             strokeWidth="3"
              opacity="1"/>
   </g>
 

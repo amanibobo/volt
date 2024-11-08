@@ -65,3 +65,12 @@
   }
 }
 
+@layer base {
+  :root {
+    --font-sans: var(--font-plus-jakarta);
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+}

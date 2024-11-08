@@ -1,27 +1,16 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import "./globals.css";
+import Navbar from "@/components/marketing/navbar";
 
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const plusJakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700', '800'],
 });
 
-const plusJakarta = localFont({
-  src: "./fonts/plus-jakarta-sans-cyrillic-ext-200-normal.woff",
-  variable: "--font-plus-jakarta",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
-  title: "Voltiant",
+  title: "Voltient - Data Center Sustainability Intelligence.",
   description:
     "Optimize your data center locations with advanced AI analytics for a sustainable, high-performance future.",
 };
@@ -34,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${plusJakarta.variable} antialiased`}
+        className={plusJakarta.className}
       >
         {children}
       </body>
