@@ -1,12 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import { useState } from "react";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="flex min-h-screen flex-col bg-[#FAFAFA] pt-14 md:pt-24">
@@ -21,7 +17,7 @@ export default function Header() {
                   of AI-driven data centers.
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Optimize your data center locations with Voltients advanced AI analytics
+                  Optimize your data center locations with advanced AI analytics
                   for a sustainable, high-performance future.
                 </p>
               </div>
@@ -38,15 +34,9 @@ export default function Header() {
         </section>
       </main>
       <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
-        <Image
-          src="/placeholder-vid.svg"
-          alt="Voltiant Logo"
-          width={1120}
-          height={1080}
-          quality={100}
-          className="rounded-3xl border w-full h-auto"
-          priority
-        />
+        <video controls playsInline className="h-full w-full rounded-lg object-cover">
+          <source src="/voltient-demo-vid.webm" type="video/webm"/>
+        </video>
       </div>
     </div>
   );

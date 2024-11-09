@@ -1,11 +1,11 @@
-import { LucideProps, PenOff } from "lucide-react";
+import { LucideProps } from "lucide-react";
 
 type IconType = {
   [key: string]: (props: LucideProps) => JSX.Element;
 };
 
 const Icons: IconType = {
-  icon: (props: LucideProps) => (
+  icon: () => (
     <svg
       width="45"
       height="45"

@@ -1,5 +1,4 @@
 import Grid from "./Grid";
-import TimerProgess from "./ui/timer-progess";
 
 export default function UseCases() {
     return (
