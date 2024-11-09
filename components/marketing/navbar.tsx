@@ -50,7 +50,7 @@ const Navbar = () => {
                         </div>
                         <div className="items-center flex gap-2 lg:gap-4">
                                 <>
-                                    <Button size="sm" variant="tertiary" asChild className="hover:translate-y-0 hover:scale-100">
+                                    <Button size="sm" variant={"outline"} asChild className="hover:translate-y-0 hover:scale-100">
                                         <Link href="/auth/signin">
                                             Login
                                         </Link>

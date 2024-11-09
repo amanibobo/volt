@@ -22,7 +22,7 @@ export default function Header() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 min-[400px]:flex-row">
-                <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#0d7cb0] rounded-3xl">
+                <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#047857] rounded-3xl">
                   Start for Free
                 </Button>
                 <Button className="rounded-3xl h-10" variant="outline">

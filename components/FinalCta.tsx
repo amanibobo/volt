@@ -13,7 +13,7 @@ export default function FinalCta() {
           </p>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#0d7cb0] rounded-3xl">
+          <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#047857] rounded-3xl">
           Start Optimizing Today
             <ArrowRight className="w-4 h-4" />
           </Button>
