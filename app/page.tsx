@@ -5,7 +5,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HowItWorks from "@/components/HowItWorks";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import UseCases from "@/components/UseCases";
 import Navbar from "@/components/marketing/navbar";
 import { ScrollProvider } from "@/components/ui/scroll-context";
 
