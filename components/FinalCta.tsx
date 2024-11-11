@@ -1,11 +1,9 @@
-import { Heading } from "./heading";
-
 export default function FinalCta() {
   return (
     <>
       <div className="flex flex-col items-center gap-16 sm:gap-20">
         <div className="">
-          <Heading>Schedule for a Demo</Heading>
+          <h1 className="text-3xl font-semibold text-gray-900">Schedule for a Demo</h1>
         </div>
 
         <div className="aspect-[16/9] w-full overflow-hidden rounded-lg shadow-lg">
