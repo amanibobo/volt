@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Optimize your data center locations with advanced AI analytics for a sustainable, high-performance future.",
     openGraph: {
-      images: ['/voltient-demo-comp.png'],
+      images: ['/nede.png'],
     },
 };
 
