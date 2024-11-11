@@ -11,7 +11,7 @@ export default function Header() {
 
 
   return (        
-        <div className="relative h-full w-full bg-[#FAFAFA] flex min-h-screen flex-col pt-14 md:pt-24">
+        <div className="relative h-full w-full bg-[#FAFAFA] flex min-h-screen flex-col pt-14 md:pt-12">
         <div className=" h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
           <main className="flex-1 px-4 sm:px-6 lg:px-[125px]">
             <section className="w-full py-12 md:py-24 lg:py-24">
