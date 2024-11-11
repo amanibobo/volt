@@ -8,8 +8,12 @@ import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import MobileMenu from "./mobile-menu";
+import { useScroll2 } from "../ui/scroll-context2";
 
 const Navbar = () => {
+
+    const { scrollToDemo2 } = useScroll2();
+
 
 
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -47,11 +51,9 @@ const Navbar = () => {
                         </div>
                         <div className="">
                                 <>
-                                    <Button size="sm" asChild className="sm:flex bg-[#059669] hover:bg-[#047857]">
-                                        <Link href="/">
+                                    <Button onClick={scrollToDemo2} size="sm" className="sm:flex bg-[#059669] hover:bg-[#047857]">
                                             Book a Demo
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
-                                        </Link>
                                     </Button>
                                 </>
                            

@@ -3,9 +3,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useScroll } from "./ui/scroll-context";
+import { useScroll2 } from "./ui/scroll-context2";
 
 export default function Header() {
   const { scrollToDemo } = useScroll();
+  const { scrollToDemo2 } = useScroll2();
+
 
   return (        
         <div className="relative h-full w-full bg-[#FAFAFA] flex min-h-screen flex-col pt-14 md:pt-24">
@@ -15,7 +18,7 @@ export default function Header() {
               <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
                   <div className="space-y-5">
-                    <h1 className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+                    <h1 className="text-5xl font-semibold tracking-tighter sm:text-4xl md:text-6xl lg:text-7xl">
                       Powering the next era
                       <br />
                       of AI-driven data centers.
@@ -26,7 +29,9 @@ export default function Header() {
                     </p>
                   </div>
                   <div className="flex flex-col gap-3 min-[400px]:flex-row">
-                    <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#047857] rounded-3xl">
+                    <Button 
+                    onClick={scrollToDemo2}
+                    className="h-10 gap-2 bg-[#059669] hover:bg-[#047857] rounded-3xl">
                       Book a Demo
                     </Button>
                     <Button

@@ -18,13 +18,19 @@ export default function NewUse() {
         </div>
         <Card className="overflow-hidden relative">
           <CardContent className="p-0">
-            <Image
-              src="/Frame1.gif?height=600&width=800"
-              alt="Code editor preview"
-              width={800}
-              height={600}
-              className="w-full object-cover opacity-75"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              controls
+              playsInline
+              className="w-full object-cover"
+            >
+              <source
+                src="/bigvolt.webm?height=600&width=800"
+                type="video/webm"
+              />
+            </video>
           </CardContent>
         </Card>
       </div>
@@ -34,19 +40,13 @@ export default function NewUse() {
         <div className="order-2 md:order-1">
           <Card className="overflow-hidden relative bg-gray-900">
             <CardContent className="p-0">
-              <video
-                autoPlay
-                loop
-                muted
-                controls
-                playsInline
+              <Image
+                src="/Frame1.gif?height=600&width=800"
+                alt="Code editor preview"
+                width={800}
+                height={600}
                 className="w-full object-cover"
-              >
-                <source
-                  src="/bigvolt.webm?height=600&width=800"
-                  type="video/webm"
-                />
-              </video>
+              />
             </CardContent>
           </Card>
         </div>
@@ -66,12 +66,10 @@ export default function NewUse() {
       <div className="grid gap-16 md:grid-cols-2">
         <div className="space-y-4">
           <h2 className="text-3xl sm:text-4xl font-semibold text-[#059669]">
-            Optimizing real estate for affordable edge
+            Optimizing real estate for regulatory compliance
           </h2>
           <p className="text-gray-500 text-lg">
-            Due to power constraints for 500MW+ data centers, hyperscalers are
-            shifting to distributed edge data centers. Voltient helps them
-            identify cost-effective locations with fiber access.
+          Voltient combines real estate data with regulatory intelligence to identify cost-efficient land in business-friendly jurisdictions, enabling rapid deployment of edge data centers
           </p>
         </div>
         <Card className="overflow-hidden relative">

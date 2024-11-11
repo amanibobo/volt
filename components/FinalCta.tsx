@@ -1,7 +1,15 @@
+"use client"
+
+import { useScroll2 } from "./ui/scroll-context2";
+
 export default function FinalCta() {
+
+  const { demoRef2 } = useScroll2()
+
+
   return (
     <>
-      <div className="flex flex-col items-center gap-16 sm:gap-20">
+      <div ref={demoRef2} className="flex flex-col items-center gap-16 sm:gap-20">
         <div className="space-y-4">
           <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900">
             Schedule for a Demo

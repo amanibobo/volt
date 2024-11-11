@@ -7,22 +7,24 @@ import HowItWorks from "@/components/HowItWorks";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Navbar from "@/components/marketing/navbar";
 import { ScrollProvider } from "@/components/ui/scroll-context";
+import { ScrollProvider2 } from "@/components/ui/scroll-context2";
 
 export default function Home() {
   return (
     <>
+    <ScrollProvider2>
       <Navbar />
+      
       <ScrollProvider>
         <Header />
         <MaxWidthWrapper>
-        <Features />
+          <Features />
         </MaxWidthWrapper>
 
         <div className="py-28 bg-[#FAFAFA]">
-        <DemoVid />
+          <DemoVid />
         </div>
       </ScrollProvider>
-
       <MaxWidthWrapper>
         <HowItWorks />
       </MaxWidthWrapper>
@@ -30,6 +32,7 @@ export default function Home() {
       <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
         <FinalCta />
       </div>
+      </ScrollProvider2>
 
       <MaxWidthWrapper className="bg-[#FAFAFA]">
         <Footer />
@@ -37,5 +40,3 @@ export default function Home() {
     </>
   );
 }
-
-

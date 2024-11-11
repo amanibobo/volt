@@ -22,7 +22,7 @@ export default function DemoVid() {
          
         </div>
 
-        <div ref={demoRef} className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
+        <div ref={demoRef} className="flex justify-center px-4 sm:px-6 lg:px-[125px]">
          <HeroVideoDialogDemoTopInBottomOut />
         </div>
       </div>
