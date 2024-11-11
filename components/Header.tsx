@@ -1,8 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { useScroll } from "./ui/scroll-context";
 
 export default function Header() {
+  const { scrollToDemo } = useScroll()
 
   return (
     <div className="flex min-h-screen flex-col bg-[#FAFAFA] pt-14 md:pt-24">
@@ -23,10 +26,10 @@ export default function Header() {
               </div>
               <div className="flex flex-col gap-3 min-[400px]:flex-row">
                 <Button className="h-10 gap-2 bg-[#059669] hover:bg-[#047857] rounded-3xl">
-                  Start for Free
+                  Book a Demo
                 </Button>
-                <Button className="rounded-3xl h-10" variant="outline">
-                  Demo Video
+                <Button onClick={scrollToDemo} className="rounded-3xl h-10" variant="outline">
+                  See how it works
                 </Button>
               </div>
             </div>
@@ -34,9 +37,15 @@ export default function Header() {
         </section>
       </main>
       <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
-        <video controls playsInline className="h-full w-full rounded-lg object-cover">
-          <source src="/voltient-demo-vid.webm" type="video/webm"/>
-        </video>
+       <Image
+          src={"/voltient-demo-compc.png"}
+          alt="b"
+          width={1080}
+          height={1080}
+          quality={100}
+          className="rounded-3xl border w-full h-auto"
+          priority
+       />
       </div>
     </div>
   );

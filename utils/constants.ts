@@ -1,6 +1,7 @@
 import {
     LinkedInLogo,
     TwitterLogo,
+    GitHubLogo,
   } from "../components/ui/icons";
   
   export const footerSections = [
@@ -70,6 +71,10 @@ import {
   
 
 export const socialMediaLinks = [
+    {
+        icon: GitHubLogo,
+        link: "https://github.com/trypear/pearai-master",
+    },
     {
       icon: TwitterLogo,
       link: "https://x.com/",

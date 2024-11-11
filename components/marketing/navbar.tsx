@@ -52,12 +52,12 @@ const Navbar = () => {
                                 <>
                                     <Button size="sm" variant={"outline"} asChild className="hover:translate-y-0 hover:scale-100">
                                         <Link href="/auth/signin">
-                                            Login
+                                            Github
                                         </Link>
                                     </Button>
                                     <Button size="sm" asChild className="hidden sm:flex bg-[#059669] hover:bg-[#047857]">
                                         <Link href="/auth/signup">
-                                            Start for free
+                                            Book a Demo
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
                                         </Link>
                                     </Button>

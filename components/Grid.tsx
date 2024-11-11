@@ -122,7 +122,7 @@ export default function Grid() {
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
               <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
                 <p className="mt-2 text-lg/7 font-medium tracking-tight text-brand-950 max-lg:text-center">
-                  RAG Pipelines
+                  Add Your Own API
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   Connect PingPanda with your existing workflows in minutes and
