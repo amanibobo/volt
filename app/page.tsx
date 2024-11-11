@@ -9,6 +9,8 @@ import UseCases from "@/components/UseCases";
 import Navbar from "@/components/marketing/navbar";
 import { ScrollProvider } from "@/components/ui/scroll-context";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <>
