@@ -10,10 +10,9 @@ export default function DemoVid() {
     <>
       <div className="w-full mx-auto">
         <div className="mb-16 flex flex-col items-center justify-center space-y-4 text-center">
-          <h1 className="text-3xl font-semibold text-center">
-            {" "}
+          <h2 className="text-3xl font-semibold text-center">
             See Voltient in action
-          </h1>
+          </h2>
           <p className="mx-auto max-w-4xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             Optimize your data center locations with advanced AI analytics for a
             sustainable, high-performance future.
