@@ -43,7 +43,7 @@ export default function Header() {
           width={1080}
           height={1080}
           quality={100}
-          className="rounded-3xl border w-full h-auto"
+          className="rounded-xl border w-full h-auto"
           priority
        />
       </div>

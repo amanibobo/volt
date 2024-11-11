@@ -9,36 +9,32 @@ import UseCases from "@/components/UseCases";
 import Navbar from "@/components/marketing/navbar";
 import { ScrollProvider } from "@/components/ui/scroll-context";
 
-export const runtime = "edge";
-
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <ScrollProvider>
-    <Header />
-    <MaxWidthWrapper>
-    <UseCases />
-    </MaxWidthWrapper>
+      <Navbar />
+      <ScrollProvider>
+        <Header />
+        <MaxWidthWrapper>
+        <Features />
+        </MaxWidthWrapper>
 
-    <DemoVid />
-    </ScrollProvider>
+        <div className="py-28 bg-[#FAFAFA]">
+        <DemoVid />
+        </div>
+      </ScrollProvider>
 
-    <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
-    <Features />
-    </div>
+      <MaxWidthWrapper>
+        <HowItWorks />
+      </MaxWidthWrapper>
 
-    <MaxWidthWrapper>
-    <HowItWorks />
-    </MaxWidthWrapper>
+      <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
+        <FinalCta />
+      </div>
 
-    <div className="bg-[#FAFAFA] py-28 md:px-[125px] px-2.5">
-    <FinalCta />
-    </div>
-
-    <MaxWidthWrapper className="bg-[#FAFAFA]">
-    <Footer />
-    </MaxWidthWrapper>
+      <MaxWidthWrapper className="bg-[#FAFAFA]">
+        <Footer />
+      </MaxWidthWrapper>
     </>
   );
 }

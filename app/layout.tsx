@@ -9,7 +9,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Voltient - Data Center Sustainability Intelligence.",
+  title: "Voltient",
   description:
     "Optimize your data center locations with advanced AI analytics for a sustainable, high-performance future.",
 };

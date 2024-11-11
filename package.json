@@ -10,6 +10,7 @@
     "pages:build": "npx @cloudflare/next-on-pages@1"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.1",
     "@radix-ui/react-accordion": "^1.2.1",
     "@radix-ui/react-navigation-menu": "^1.2.1",
     "@radix-ui/react-progress": "^1.1.0",

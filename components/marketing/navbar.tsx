@@ -7,7 +7,6 @@ import { useEffect, useState } from 'react';
 import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
-import Menu from "./menu";
 import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
@@ -44,17 +43,10 @@ const Navbar = () => {
                             <Link href="/" className="text-lg font-semibold text-foreground">
                                 <Icons.icon className="w-auto h-5" />
                             </Link>
-                            <div className="items-center hidden ml-4 lg:flex">
-                                <Menu />
-                            </div>
+                            
                         </div>
-                        <div className="items-center flex gap-2 lg:gap-4">
+                        <div className="">
                                 <>
-                                    <Button size="sm" variant={"outline"} asChild className="hover:translate-y-0 hover:scale-100">
-                                        <Link href="/auth/signin">
-                                            Github
-                                        </Link>
-                                    </Button>
                                     <Button size="sm" asChild className="hidden sm:flex bg-[#059669] hover:bg-[#047857]">
                                         <Link href="/auth/signup">
                                             Book a Demo

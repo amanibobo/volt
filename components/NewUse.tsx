@@ -1,14 +1,13 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
-import { Play } from "lucide-react"
 
 export default function NewUse() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-12 space-y-40">
+    <div className="w-full max-w-7xl mx-auto py-28 space-y-40">
       {/* Step 1 */}
-      <div className="grid gap-8 md:grid-cols-2 items-center">
+      <div className="grid gap-16 md:grid-cols-2">
         <div className="space-y-4">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#059669]">
           Sourcing renewable energy
           </h2>
           <p className="text-gray-500 text-lg">
@@ -25,18 +24,13 @@ export default function NewUse() {
               height={600}
               className="w-full object-cover opacity-75"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="rounded-full bg-primary/90 p-4 text-white">
-                <Play className="h-8 w-8" />
-              </div>
-            </div>
           </CardContent>
         </Card>
        
       </div>
 
       {/* Step 2 */}
-      <div className="grid gap-8 md:grid-cols-2 items-center">
+      <div className="grid gap-16 md:grid-cols-2">
         <div className="order-2 md:order-1">
           <Card className="overflow-hidden relative bg-gray-900">
             <CardContent className="p-0">
@@ -47,16 +41,11 @@ export default function NewUse() {
                 height={600}
                 className="w-full object-cover"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="rounded-full bg-primary/90 p-4 text-white">
-                  <Play className="h-8 w-8" />
-                </div>
-              </div>
             </CardContent>
           </Card>
         </div>
         <div className="space-y-4 order-1 md:order-2">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#059669]">
           Decade-long climate change predictions
           </h2>
           <p className="text-gray-500 text-lg">
@@ -67,9 +56,9 @@ export default function NewUse() {
       </div>
 
       {/* Step 3 */}
-      <div className="grid gap-8 md:grid-cols-2 items-center">
+      <div className="grid gap-16 md:grid-cols-2">
         <div className="space-y-4">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#059669]">
           Optimizing real estate for affordable edge
           </h2>
           <p className="text-gray-500 text-lg">
@@ -86,11 +75,6 @@ export default function NewUse() {
               height={600}
               className="w-full object-cover opacity-75"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="rounded-full bg-primary/90 p-4 text-white">
-                <Play className="h-8 w-8" />
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>
