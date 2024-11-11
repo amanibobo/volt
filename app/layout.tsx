@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Voltient",
   description:
     "Optimize your data center locations with advanced AI analytics for a sustainable, high-performance future.",
+    openGraph: {
+      images: ['/voltient-demo-comp.png'],
+    },
 };
 
 export default function RootLayout({
