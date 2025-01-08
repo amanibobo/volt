@@ -1,4 +1,5 @@
 import {
+  GitHubLogo,
     LinkedInLogo,
   } from "../components/ui/icons";
   
@@ -72,5 +73,9 @@ export const socialMediaLinks = [
     {
       icon: LinkedInLogo,
       link: "https://www.linkedin.com/company/voltient/posts/?feedView=all",
+    },
+    {
+      icon: GitHubLogo,
+      link: "/"
     },
   ];
